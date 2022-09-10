@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain smw7bmn8wuf3.usemoralis.com --frpcPath ./frp/frpc",
+    "moralis:cloud":"moralis-admin-cli watch-cloud-folder --moralisSubdomain smw7bmn8wuf3.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "moralis": "^2.4.0",
+    "moralis-v1": "^1.11.0",
+    "next": "12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-moralis": "^1.4.2",
+    "web3uikit": "^0.1.159"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}

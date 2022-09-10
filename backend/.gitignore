@@ -1,0 +1,9 @@
+# local env files
+.env*.local
+
+# dependencies
+/node_modules
+
+/.env
+# testing
+/coverage
